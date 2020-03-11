@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script> var hello = "bonjour";
+    function bonjour(){} 
+    console.log(document); // environnement global
+    //mettre toutes les variables / et les fonctions dans le document
+    //nodejs toutes les variables sont locales
+    // ouvrir dans le navigateur
+
+    // ()()
+
+    (function(){
+        //ici que l'on va écrire notre code js
+        var hello = 2;
+    })()
+
+    (function(){
+        var hello = bonjour;
+        
+    })();
+
+    </script>
+</body>
+</html>
