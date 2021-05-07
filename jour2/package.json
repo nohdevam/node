@@ -13,6 +13,6 @@
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "mongoose": "^5.8.10",
-    "underscore": "^1.9.2"
+    "underscore": "^1.12.1"
   }
 }
